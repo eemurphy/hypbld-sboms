@@ -1,0 +1,28 @@
+app:
+  name: 'ACM 2.9'
+  version: '2.9'
+  description: '[OPTIONAL]'
+  author:
+  - name: '[OPTIONAL]'
+    email: '[OPTIONAL]'
+  primary_purpose: 'application'
+  purl: '[OPTIONAL]'
+  cpe: '[OPTIONAL]'
+  license:
+    id: '[OPTIONAL]'
+  supplier:
+    name: '[OPTIONAL]'
+    email: '[OPTIONAL]'
+  checksum:
+  - algorithm: '[OPTIONAL]'
+    value: '[OPTIONAL]'
+  copyright: '[OPTIONAL]'
+output:
+  spec: cyclonedx
+  file_format: json
+assemble:
+  include_dependency_graph: false
+  include_components: true
+  flat_merge: false
+  hierarchical_merge: true
+

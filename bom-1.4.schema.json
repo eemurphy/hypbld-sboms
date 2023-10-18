@@ -58,44 +58,12 @@
       "title": "Components",
       "description": "A list of software and hardware components."
     },
-    "services": {
-      "type": "array",
-      "additionalItems": false,
-      "items": {"$ref": "#/definitions/service"},
-      "uniqueItems": true,
-      "title": "Services",
-      "description": "A list of services. This may include microservices, function-as-a-service, and other types of network or intra-process services."
-    },
     "externalReferences": {
       "type": "array",
       "additionalItems": false,
       "items": {"$ref": "#/definitions/externalReference"},
       "title": "External References",
       "description": "External references provide a way to document systems, sites, and information that may be relevant but which are not included with the BOM."
-    },
-    "dependencies": {
-      "type": "array",
-      "additionalItems": false,
-      "items": {"$ref": "#/definitions/dependency"},
-      "uniqueItems": true,
-      "title": "Dependencies",
-      "description": "Provides the ability to document dependency relationships."
-    },
-    "compositions": {
-      "type": "array",
-      "additionalItems": false,
-      "items": {"$ref": "#/definitions/compositions"},
-      "uniqueItems": true,
-      "title": "Compositions",
-      "description": "Compositions describe constituent parts (including components, services, and dependency relationships) and their completeness."
-    },
-    "vulnerabilities": {
-      "type": "array",
-      "additionalItems": false,
-      "items": {"$ref": "#/definitions/vulnerability"},
-      "uniqueItems": true,
-      "title": "Vulnerabilities",
-      "description": "Vulnerabilities identified in components or services."
     },
     "signature": {
       "$ref": "#/definitions/signature",
@@ -383,11 +351,6 @@
           "title": "SWID Tag",
           "description": "Specifies metadata and content for [ISO-IEC 19770-2 Software Identification (SWID) Tags](https://www.iso.org/standard/65666.html)."
         },
-        "modified": {
-          "type": "boolean",
-          "title": "Component Modified From Original",
-          "description": "[Deprecated] - DO NOT USE. This will be removed in a future version. Use the pedigree element instead to supply information on exactly how the component was modified. A boolean value indicating if the component has been modified from the original. A value of true indicates the component is a derivative of the original. A value of false indicates the component has not been modified from the original."
-        },
         "pedigree": {
           "type": "object",
           "title": "Component Pedigree",
@@ -442,14 +405,6 @@
           "items": {"$ref": "#/definitions/externalReference"},
           "title": "External References",
           "description": "External references provide a way to document systems, sites, and information that may be relevant but which are not included with the BOM."
-        },
-        "components": {
-          "type": "array",
-          "additionalItems": false,
-          "items": {"$ref": "#/definitions/component"},
-          "uniqueItems": true,
-          "title": "Components",
-          "description": "A list of software and hardware components included in the parent component. This is not a dependency tree. It provides a way to specify a hierarchical representation of component assemblies, similar to system &#8594; subsystem &#8594; parts assembly in physical supply chains."
         },
         "evidence": {
           "$ref": "#/definitions/componentEvidence",
