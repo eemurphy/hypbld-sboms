@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:aa2cb45a-24d9-4b04-bd19-13dd2d95be0a",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:21:34-04:00",
+        "component": {
+            "bom-ref": "41568cbf8ea46bc8",
+            "type": "container",
+            "name": "quay.io/stolostron/thanos-receive-controller",
+            "version": "2.9.0-78712173dd84f96e1fc0d700cf903090e7b53dae"
+        }
+    }
+}

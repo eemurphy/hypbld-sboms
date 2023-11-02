@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:c28a2173-5d53-4b8d-be34-d7dc9cd9d4bf",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:14:28-04:00",
+        "component": {
+            "bom-ref": "cd145ee24a6ea8a4",
+            "type": "container",
+            "name": "quay.io/stolostron/governance-policy-addon-controller",
+            "version": "2.9.0-610909bd86926a8f7db11714a2ee3e7a744801f7"
+        }
+    }
+}

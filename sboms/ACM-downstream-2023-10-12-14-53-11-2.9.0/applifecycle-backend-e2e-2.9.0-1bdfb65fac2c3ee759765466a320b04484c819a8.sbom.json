@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:0051da1b-97e6-41fa-87cf-d767e2101edc",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:13:22-04:00",
+        "component": {
+            "bom-ref": "9f6670afe329673a",
+            "type": "container",
+            "name": "quay.io/stolostron/applifecycle-backend-e2e",
+            "version": "2.9.0-1bdfb65fac2c3ee759765466a320b04484c819a8"
+        }
+    }
+}

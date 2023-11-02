@@ -1,0 +1,904 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:83ec32ba-4f46-49f3-983c-fd156d77765a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-02T16:31:59Z",
+    "tools": [],
+    "authors": [
+      {}
+    ],
+    "component": {
+      "bom-ref": "93ccbcabf3b87d3",
+      "type": "application",
+      "name": "ACM 2.9",
+      "version": "2.9",
+      "hashes": []
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "CC-BY-1.0"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "8182ebcaa66d832",
+      "type": "application",
+      "name": "ACM 2.9",
+      "version": "2.9",
+      "hashes": [],
+      "components": [
+        {
+          "bom-ref": "e8a10f99531db654",
+          "type": "application",
+          "name": "ACM 2.9",
+          "version": "2.9",
+          "hashes": []
+        },
+        {
+          "bom-ref": "1c107b038f711aa3",
+          "type": "container",
+          "name": "quay.io/stolostron/analytics-recommends",
+          "version": "2.9.0-d381073d10e05df45196606067ec1a93c1ab2e9b"
+        },
+        {
+          "bom-ref": "89699ff617e1632a",
+          "type": "container",
+          "name": "quay.io/stolostron/applifecycle-backend-e2e",
+          "version": "2.9.0-1bdfb65fac2c3ee759765466a320b04484c819a8"
+        },
+        {
+          "bom-ref": "a63f9c2860468441",
+          "type": "container",
+          "name": "quay.io/stolostron/bailer",
+          "version": "2.7.0-61b678d7796c75cacca1fb08b1b0b6b71fe25253"
+        },
+        {
+          "bom-ref": "3b88f4a4fea62a88",
+          "type": "container",
+          "name": "quay.io/stolostron/cert-policy-controller",
+          "version": "2.9.0-efc6db6787f6f550f8583edad90531025c1c6728"
+        },
+        {
+          "bom-ref": "dd4b539bc6548b0a",
+          "type": "container",
+          "name": "quay.io/stolostron/cluster-backup-controller",
+          "version": "2.9.0-649ca349f548f9d39309813064a36c09707219b0"
+        },
+        {
+          "bom-ref": "228a35e58c1d515",
+          "type": "container",
+          "name": "quay.io/stolostron/cluster-lifecycle-e2e",
+          "version": "2.9.0-4a098e64f67071459fd8ba152f504990dbd52800"
+        },
+        {
+          "bom-ref": "edbb769de001b068",
+          "type": "container",
+          "name": "quay.io/stolostron/cluster-permission",
+          "version": "2.9.0-3e82c7606853012bcd5c47e0de9ca4195457057c"
+        },
+        {
+          "bom-ref": "15b64fb85a797cd2",
+          "type": "container",
+          "name": "quay.io/stolostron/cluster-proxy",
+          "version": "2.6-0d668713c71dbf873c2512a15bf2571fa79488c6"
+        },
+        {
+          "bom-ref": "5d4646dd47832e73",
+          "type": "container",
+          "name": "quay.io/stolostron/cluster-proxy-addon",
+          "version": "2.5.0-59d349c4c360bb1e72e1b4320f9cb2c632df5a15"
+        },
+        {
+          "bom-ref": "688cb93bf04d526e",
+          "type": "container",
+          "name": "quay.io/stolostron/cluster-templates-operator",
+          "version": "2.8.0-e6619af6896be853379c0a136f1f66354d6d4c4d"
+        },
+        {
+          "bom-ref": "ae2b09130af9ba",
+          "type": "container",
+          "name": "quay.io/stolostron/config-policy-controller",
+          "version": "2.9.0-70185663e4bffae1235250f8fd50f7623e6e98c9"
+        },
+        {
+          "bom-ref": "d2842831a207c039",
+          "type": "container",
+          "name": "quay.io/stolostron/console",
+          "version": "2.9.0-36667cde42b36fabc64682adf48c58de0a4be900"
+        },
+        {
+          "bom-ref": "ef9933f559cf2c28",
+          "type": "container",
+          "name": "quay.io/stolostron/endpoint-monitoring-operator",
+          "version": "2.9.0-2c47e2bdacdd2a5a3069bef1477ca1c00d9f12c1"
+        },
+        {
+          "bom-ref": "fc177251f48144e1",
+          "type": "container",
+          "name": "quay.io/stolostron/governance-policy-addon-controller",
+          "version": "2.9.0-610909bd86926a8f7db11714a2ee3e7a744801f7"
+        },
+        {
+          "bom-ref": "c2672d24419e1d43",
+          "type": "container",
+          "name": "quay.io/stolostron/governance-policy-framework-addon",
+          "version": "2.9.0-b5b08c42f0047cd06247e32d38d7121dadc5f223"
+        },
+        {
+          "bom-ref": "bb7fe44f04379700",
+          "type": "container",
+          "name": "quay.io/stolostron/governance-policy-propagator",
+          "version": "2.9.0-8e083fdab7d4029b3bcaf18be22883a940057cb2"
+        },
+        {
+          "bom-ref": "48f2ec741144c85f",
+          "type": "container",
+          "name": "quay.io/stolostron/grafana",
+          "version": "2.9.0-97254b6fef8cad5a3da7da942914a5a71f506ffe"
+        },
+        {
+          "bom-ref": "21b1ea686c6f8b83",
+          "type": "container",
+          "name": "quay.io/stolostron/grafana-dashboard-loader",
+          "version": "2.9.0-fe233aa3392e00ad636a646a2a96373f9e7ccbdb"
+        },
+        {
+          "bom-ref": "148b14117ff72adf",
+          "type": "container",
+          "name": "quay.io/stolostron/grc-policy-framework-tests",
+          "version": "2.9.0-59ee6ef3048b1545613b3ed77306d43e03709042"
+        },
+        {
+          "bom-ref": "3f57169baf695fac",
+          "type": "container",
+          "name": "quay.io/stolostron/helloprow-go",
+          "version": "1.0.0-84a3a5fd79ccfff383811d4702aa5c1850a5b2f6"
+        },
+        {
+          "bom-ref": "efe5036145f959e6",
+          "type": "container",
+          "name": "quay.io/stolostron/helloworld",
+          "version": "1.0.0-b887ee2a65e259ea16a6440f966fc096d84e3eb5"
+        },
+        {
+          "bom-ref": "e80c875908ae3812",
+          "type": "container",
+          "name": "quay.io/stolostron/iam-policy-controller",
+          "version": "2.9.0-8e35ed50f2cedf803e7eb1fbce22f7c1e9b24c9c"
+        },
+        {
+          "bom-ref": "1cf52a230a366b0c",
+          "type": "container",
+          "name": "quay.io/stolostron/insights-client",
+          "version": "2.9.0-f697652bae8ec4f5ac073d1b1625fd25c9573157"
+        },
+        {
+          "bom-ref": "f0e03aca7c5d0769",
+          "type": "container",
+          "name": "quay.io/stolostron/insights-metrics",
+          "version": "2.9.0-ca73fa4920e5f4477a900475ad09475c286afd94"
+        },
+        {
+          "bom-ref": "819cd4aebdf722c2",
+          "type": "container",
+          "name": "quay.io/stolostron/klusterlet-addon-controller",
+          "version": "2.9.0-21fcf32a88b845c67d0dcc47e0d86002c182d5d8"
+        },
+        {
+          "bom-ref": "4a12de79b7f88d0e",
+          "type": "container",
+          "name": "quay.io/stolostron/kube-rbac-proxy",
+          "version": "2.9.0-ffbd7cebb30767ad8cec54cb485cca6e472cd26c"
+        },
+        {
+          "bom-ref": "c3eb95e408c822bb",
+          "type": "container",
+          "name": "quay.io/stolostron/kube-state-metrics",
+          "version": "2.9.0-05a25ee9997be60608172443698d0f40ff62fffd"
+        },
+        {
+          "bom-ref": "3dd4c7bb998996de",
+          "type": "container",
+          "name": "quay.io/stolostron/metrics-collector",
+          "version": "2.9.0-fe233aa3392e00ad636a646a2a96373f9e7ccbdb"
+        },
+        {
+          "bom-ref": "64226d85f664ab20",
+          "type": "container",
+          "name": "quay.io/stolostron/multicloud-integrations",
+          "version": "2.9.0-9e76fa51b28da8c7ca1d3dd7123cac15c426664d"
+        },
+        {
+          "bom-ref": "4c3a4e985b0ec5a8",
+          "type": "container",
+          "name": "quay.io/stolostron/multicluster-global-hub-operator",
+          "version": "2.9.0-447c26676a002017b872fbddea46975a1f3d0560"
+        },
+        {
+          "bom-ref": "67d74e965a64a25a",
+          "type": "container",
+          "name": "quay.io/stolostron/multicluster-observability-operator",
+          "version": "2.9.0-2c47e2bdacdd2a5a3069bef1477ca1c00d9f12c1"
+        },
+        {
+          "bom-ref": "f2763afb46d45849",
+          "type": "container",
+          "name": "quay.io/stolostron/multicluster-operators-application",
+          "version": "2.9.0-6a6d3014bfb8dbb8e77f69f5bb9024516dc479ed"
+        },
+        {
+          "bom-ref": "f8bf7e7fcefb9aaa",
+          "type": "container",
+          "name": "quay.io/stolostron/multicluster-operators-channel",
+          "version": "2.9.0-379da700074075c1585c4f20372f45bf988aed59"
+        },
+        {
+          "bom-ref": "4cd516490cf08c00",
+          "type": "container",
+          "name": "quay.io/stolostron/multicluster-operators-subscription",
+          "version": "2.9.0-a64b629a340faee6e707fc24128e3cd8a9026bef"
+        },
+        {
+          "bom-ref": "752e127d0622750e",
+          "type": "container",
+          "name": "quay.io/stolostron/multiclusterhub-operator",
+          "version": "2.9.0-e79c0f82cce325b4c8c69296193a88da5d8f31e0"
+        },
+        {
+          "bom-ref": "faecfb94a07783f9",
+          "type": "container",
+          "name": "quay.io/stolostron/multiclusterhub-operator-tests",
+          "version": "2.9.0-e79c0f82cce325b4c8c69296193a88da5d8f31e0"
+        },
+        {
+          "bom-ref": "437ec4c3701bba89",
+          "type": "container",
+          "name": "quay.io/stolostron/must-gather",
+          "version": "2.9.0-d2f51d011e9d1f6bbe0e18fe13ff563e4e01e0c4"
+        },
+        {
+          "bom-ref": "a9aa2c61586b03ff",
+          "type": "container",
+          "name": "quay.io/stolostron/node-exporter",
+          "version": "2.9.0-bd7e2ce14dfc0e396a4d0c6d69136acf04ea9a1d"
+        },
+        {
+          "bom-ref": "1f7fb559c38e708b",
+          "type": "container",
+          "name": "quay.io/stolostron/observability-e2e-test",
+          "version": "2.9.0-fe233aa3392e00ad636a646a2a96373f9e7ccbdb"
+        },
+        {
+          "bom-ref": "faa41bfba59b6fb9",
+          "type": "container",
+          "name": "quay.io/stolostron/observatorium",
+          "version": "2.9.0-64a459310cc9fc131e8919f34881f77f25b1dd86"
+        },
+        {
+          "bom-ref": "d801b7c1eaae4d11",
+          "type": "container",
+          "name": "quay.io/stolostron/observatorium-operator",
+          "version": "2.9.0-ea12d3fb3af7b18f2fa431731aa45716ddec94ce"
+        },
+        {
+          "bom-ref": "17319789490cd167",
+          "type": "container",
+          "name": "quay.io/stolostron/origin-oauth-proxy",
+          "version": "4.8"
+        },
+        {
+          "bom-ref": "7cf0ae8c9b7c60f4",
+          "type": "container",
+          "name": "quay.io/stolostron/origin-oauth-proxy-48",
+          "version": "4.8"
+        },
+        {
+          "bom-ref": "99066d18ae3a17e6",
+          "type": "container",
+          "name": "quay.io/stolostron/origin-oauth-proxy-49-and-up",
+          "version": "4.9"
+        },
+        {
+          "bom-ref": "d7e005611890ec3d",
+          "type": "container",
+          "name": "quay.io/stolostron/postgresql-12",
+          "version": "1-92"
+        },
+        {
+          "bom-ref": "d5cac8b30fe66dfa",
+          "type": "container",
+          "name": "quay.io/stolostron/postgresql-13",
+          "version": "1-101"
+        },
+        {
+          "bom-ref": "a96b55e88560818e",
+          "type": "container",
+          "name": "quay.io/stolostron/prometheus",
+          "version": "2.9.0-0babb8ecd8e5bba4b660afc2da861f1462fee6bd"
+        },
+        {
+          "bom-ref": "f9af81bfb6a7ab70",
+          "type": "container",
+          "name": "quay.io/stolostron/prometheus-alertmanager",
+          "version": "2.9.0-26575202a14a94d8fc27b93c1a042ccdcecadf24"
+        },
+        {
+          "bom-ref": "99dd227e7e996990",
+          "type": "container",
+          "name": "quay.io/stolostron/prometheus-config-reloader",
+          "version": "2.9.0-f0843bcaeb71e8ea58f6427c9518a086b1ae9311"
+        },
+        {
+          "bom-ref": "a2ff2fd766ea2ee8",
+          "type": "container",
+          "name": "quay.io/stolostron/prometheus-operator",
+          "version": "2.9.0-f0843bcaeb71e8ea58f6427c9518a086b1ae9311"
+        },
+        {
+          "bom-ref": "372d2bd19de6d7c8",
+          "type": "container",
+          "name": "quay.io/stolostron/rbac-query-proxy",
+          "version": "2.9.0-2c47e2bdacdd2a5a3069bef1477ca1c00d9f12c1"
+        },
+        {
+          "bom-ref": "4e5226b15a867e8",
+          "type": "container",
+          "name": "quay.io/stolostron/search-collector",
+          "version": "2.9.0-4b30af183ccf0c6b880c6c6c21d6da4be5b9ed7c"
+        },
+        {
+          "bom-ref": "f064b037485a310d",
+          "type": "container",
+          "name": "quay.io/stolostron/search-e2e",
+          "version": "2.9.0-a9559d9e1e04f313a0fb93b0a8889e6b940fe1cc"
+        },
+        {
+          "bom-ref": "2d7e780cfd13f691",
+          "type": "container",
+          "name": "quay.io/stolostron/search-indexer",
+          "version": "2.9.0-c77b83fc4572b1059cfbe57f290bf4a85ff9af24"
+        },
+        {
+          "bom-ref": "9a2f820a10588c81",
+          "type": "container",
+          "name": "quay.io/stolostron/search-operator-bundle",
+          "version": "2.9.0-1942b3fb2215f0cf49cc23b737f41a25512551f4"
+        },
+        {
+          "bom-ref": "f8547e841389b578",
+          "type": "container",
+          "name": "quay.io/stolostron/search-v2-api",
+          "version": "2.9.0-2a7272b4ec14be855da6050b710d9679e6d11381"
+        },
+        {
+          "bom-ref": "620ab827850b7171",
+          "type": "container",
+          "name": "quay.io/stolostron/search-v2-operator",
+          "version": "2.9.0-614579b79dd8585004d33cb10ec1c529dc890013"
+        },
+        {
+          "bom-ref": "673d6b147f22d885",
+          "type": "container",
+          "name": "quay.io/stolostron/submariner-addon",
+          "version": "2.9.0-f5ac4c6c893c4819c33b4062ed7a33b740161a7c"
+        },
+        {
+          "bom-ref": "4504f7462cd7a6b9",
+          "type": "container",
+          "name": "quay.io/stolostron/thanos",
+          "version": "2.9.0-b33e30b5e62f744357359eebda1d599d3eabe8f3"
+        },
+        {
+          "bom-ref": "88dacd821f4b9cb6",
+          "type": "container",
+          "name": "quay.io/stolostron/thanos-receive-controller",
+          "version": "2.9.0-78712173dd84f96e1fc0d700cf903090e7b53dae"
+        },
+        {
+          "bom-ref": "74e83532bb8960b5",
+          "type": "container",
+          "name": "quay.io/stolostron/volsync-addon-controller",
+          "version": "2.9.0-293e520b955a51e25697a1e6d9471b75e3d8d59f"
+        },
+        {
+          "bom-ref": "f261ced21f711222",
+          "type": "container",
+          "name": "quay.io/stolostron/volsync-mover-rclone",
+          "version": "release-0.5"
+        },
+        {
+          "bom-ref": "ce1686ded876cd80",
+          "type": "container",
+          "name": "quay.io/stolostron/volsync-mover-restic",
+          "version": "release-0.5"
+        },
+        {
+          "bom-ref": "9e84dbfb1b75155d",
+          "type": "container",
+          "name": "quay.io/stolostron/volsync-mover-rsync",
+          "version": "release-0.5"
+        },
+        {
+          "bom-ref": "485b341e340b9f46",
+          "type": "container",
+          "name": "quay.io/stolostron/volsync-mover-syncthing",
+          "version": "release-0.5"
+        },
+        {
+          "bom-ref": "f8c09017b396a1f9",
+          "type": "container",
+          "name": "quay.io/stolostron/volsync",
+          "version": "release-0.5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7d03dd438f063511",
+      "type": "container",
+      "name": "quay.io/stolostron/analytics-recommends",
+      "version": "2.9.0-d381073d10e05df45196606067ec1a93c1ab2e9b",
+      "components": []
+    },
+    {
+      "bom-ref": "8a86607fd299c198",
+      "type": "container",
+      "name": "quay.io/stolostron/applifecycle-backend-e2e",
+      "version": "2.9.0-1bdfb65fac2c3ee759765466a320b04484c819a8",
+      "components": []
+    },
+    {
+      "bom-ref": "70616de4eb983e81",
+      "type": "container",
+      "name": "quay.io/stolostron/bailer",
+      "version": "2.7.0-61b678d7796c75cacca1fb08b1b0b6b71fe25253",
+      "components": []
+    },
+    {
+      "bom-ref": "49e857be14b6834d",
+      "type": "container",
+      "name": "quay.io/stolostron/cert-policy-controller",
+      "version": "2.9.0-efc6db6787f6f550f8583edad90531025c1c6728",
+      "components": []
+    },
+    {
+      "bom-ref": "4a97004132d4a67a",
+      "type": "container",
+      "name": "quay.io/stolostron/cluster-backup-controller",
+      "version": "2.9.0-649ca349f548f9d39309813064a36c09707219b0",
+      "components": []
+    },
+    {
+      "bom-ref": "9a8297592ebf2388",
+      "type": "container",
+      "name": "quay.io/stolostron/cluster-lifecycle-e2e",
+      "version": "2.9.0-4a098e64f67071459fd8ba152f504990dbd52800",
+      "components": []
+    },
+    {
+      "bom-ref": "9911729f67fc195a",
+      "type": "container",
+      "name": "quay.io/stolostron/cluster-permission",
+      "version": "2.9.0-3e82c7606853012bcd5c47e0de9ca4195457057c",
+      "components": []
+    },
+    {
+      "bom-ref": "5cb9060bc18eb138",
+      "type": "container",
+      "name": "quay.io/stolostron/cluster-proxy",
+      "version": "2.6-0d668713c71dbf873c2512a15bf2571fa79488c6",
+      "components": []
+    },
+    {
+      "bom-ref": "429d950cdace654b",
+      "type": "container",
+      "name": "quay.io/stolostron/cluster-proxy-addon",
+      "version": "2.5.0-59d349c4c360bb1e72e1b4320f9cb2c632df5a15",
+      "components": []
+    },
+    {
+      "bom-ref": "e331eebe15c2e6ce",
+      "type": "container",
+      "name": "quay.io/stolostron/cluster-templates-operator",
+      "version": "2.8.0-e6619af6896be853379c0a136f1f66354d6d4c4d",
+      "components": []
+    },
+    {
+      "bom-ref": "ab8f3e18bc2b2ab6",
+      "type": "container",
+      "name": "quay.io/stolostron/config-policy-controller",
+      "version": "2.9.0-70185663e4bffae1235250f8fd50f7623e6e98c9",
+      "components": []
+    },
+    {
+      "bom-ref": "6325e4d6fa5adb26",
+      "type": "container",
+      "name": "quay.io/stolostron/console",
+      "version": "2.9.0-36667cde42b36fabc64682adf48c58de0a4be900",
+      "components": []
+    },
+    {
+      "bom-ref": "518c2e0c4d08e7f2",
+      "type": "container",
+      "name": "quay.io/stolostron/endpoint-monitoring-operator",
+      "version": "2.9.0-2c47e2bdacdd2a5a3069bef1477ca1c00d9f12c1",
+      "components": []
+    },
+    {
+      "bom-ref": "50bef24e60f5f4e5",
+      "type": "container",
+      "name": "quay.io/stolostron/governance-policy-addon-controller",
+      "version": "2.9.0-610909bd86926a8f7db11714a2ee3e7a744801f7",
+      "components": []
+    },
+    {
+      "bom-ref": "67abab0a3bee5408",
+      "type": "container",
+      "name": "quay.io/stolostron/governance-policy-framework-addon",
+      "version": "2.9.0-b5b08c42f0047cd06247e32d38d7121dadc5f223",
+      "components": []
+    },
+    {
+      "bom-ref": "f2f13f351fd06bfe",
+      "type": "container",
+      "name": "quay.io/stolostron/governance-policy-propagator",
+      "version": "2.9.0-8e083fdab7d4029b3bcaf18be22883a940057cb2",
+      "components": []
+    },
+    {
+      "bom-ref": "83cfe37ba9a8ae88",
+      "type": "container",
+      "name": "quay.io/stolostron/grafana",
+      "version": "2.9.0-97254b6fef8cad5a3da7da942914a5a71f506ffe",
+      "components": []
+    },
+    {
+      "bom-ref": "b49c4d654abb336e",
+      "type": "container",
+      "name": "quay.io/stolostron/grafana-dashboard-loader",
+      "version": "2.9.0-fe233aa3392e00ad636a646a2a96373f9e7ccbdb",
+      "components": []
+    },
+    {
+      "bom-ref": "77fb07cd466a0b07",
+      "type": "container",
+      "name": "quay.io/stolostron/grc-policy-framework-tests",
+      "version": "2.9.0-59ee6ef3048b1545613b3ed77306d43e03709042",
+      "components": []
+    },
+    {
+      "bom-ref": "b1a94a00fce3cf89",
+      "type": "container",
+      "name": "quay.io/stolostron/helloprow-go",
+      "version": "1.0.0-84a3a5fd79ccfff383811d4702aa5c1850a5b2f6",
+      "components": []
+    },
+    {
+      "bom-ref": "24e5852035c92d3a",
+      "type": "container",
+      "name": "quay.io/stolostron/helloworld",
+      "version": "1.0.0-b887ee2a65e259ea16a6440f966fc096d84e3eb5",
+      "components": []
+    },
+    {
+      "bom-ref": "bfa47065b0041fb2",
+      "type": "container",
+      "name": "quay.io/stolostron/iam-policy-controller",
+      "version": "2.9.0-8e35ed50f2cedf803e7eb1fbce22f7c1e9b24c9c",
+      "components": []
+    },
+    {
+      "bom-ref": "67aa809b3ef1a2e1",
+      "type": "container",
+      "name": "quay.io/stolostron/insights-client",
+      "version": "2.9.0-f697652bae8ec4f5ac073d1b1625fd25c9573157",
+      "components": []
+    },
+    {
+      "bom-ref": "df874f8fcb772d6c",
+      "type": "container",
+      "name": "quay.io/stolostron/insights-metrics",
+      "version": "2.9.0-ca73fa4920e5f4477a900475ad09475c286afd94",
+      "components": []
+    },
+    {
+      "bom-ref": "c4279eca720dfc8a",
+      "type": "container",
+      "name": "quay.io/stolostron/klusterlet-addon-controller",
+      "version": "2.9.0-21fcf32a88b845c67d0dcc47e0d86002c182d5d8",
+      "components": []
+    },
+    {
+      "bom-ref": "2d3880990149f3c3",
+      "type": "container",
+      "name": "quay.io/stolostron/kube-rbac-proxy",
+      "version": "2.9.0-ffbd7cebb30767ad8cec54cb485cca6e472cd26c",
+      "components": []
+    },
+    {
+      "bom-ref": "18b87a93110a640c",
+      "type": "container",
+      "name": "quay.io/stolostron/kube-state-metrics",
+      "version": "2.9.0-05a25ee9997be60608172443698d0f40ff62fffd",
+      "components": []
+    },
+    {
+      "bom-ref": "2bc5f412f0b1c89a",
+      "type": "container",
+      "name": "quay.io/stolostron/metrics-collector",
+      "version": "2.9.0-fe233aa3392e00ad636a646a2a96373f9e7ccbdb",
+      "components": []
+    },
+    {
+      "bom-ref": "88021f545e51c46",
+      "type": "container",
+      "name": "quay.io/stolostron/multicloud-integrations",
+      "version": "2.9.0-9e76fa51b28da8c7ca1d3dd7123cac15c426664d",
+      "components": []
+    },
+    {
+      "bom-ref": "940f385a9c934b04",
+      "type": "container",
+      "name": "quay.io/stolostron/multicluster-global-hub-operator",
+      "version": "2.9.0-447c26676a002017b872fbddea46975a1f3d0560",
+      "components": []
+    },
+    {
+      "bom-ref": "d0cdb98b6e9d5388",
+      "type": "container",
+      "name": "quay.io/stolostron/multicluster-observability-operator",
+      "version": "2.9.0-2c47e2bdacdd2a5a3069bef1477ca1c00d9f12c1",
+      "components": []
+    },
+    {
+      "bom-ref": "12e275de401e1141",
+      "type": "container",
+      "name": "quay.io/stolostron/multicluster-operators-application",
+      "version": "2.9.0-6a6d3014bfb8dbb8e77f69f5bb9024516dc479ed",
+      "components": []
+    },
+    {
+      "bom-ref": "49b45d87f658a42c",
+      "type": "container",
+      "name": "quay.io/stolostron/multicluster-operators-channel",
+      "version": "2.9.0-379da700074075c1585c4f20372f45bf988aed59",
+      "components": []
+    },
+    {
+      "bom-ref": "4b34f3f41b36743a",
+      "type": "container",
+      "name": "quay.io/stolostron/multicluster-operators-subscription",
+      "version": "2.9.0-a64b629a340faee6e707fc24128e3cd8a9026bef",
+      "components": []
+    },
+    {
+      "bom-ref": "42afa83afaa46f44",
+      "type": "container",
+      "name": "quay.io/stolostron/multiclusterhub-operator",
+      "version": "2.9.0-e79c0f82cce325b4c8c69296193a88da5d8f31e0",
+      "components": []
+    },
+    {
+      "bom-ref": "1714447043806225",
+      "type": "container",
+      "name": "quay.io/stolostron/multiclusterhub-operator-tests",
+      "version": "2.9.0-e79c0f82cce325b4c8c69296193a88da5d8f31e0",
+      "components": []
+    },
+    {
+      "bom-ref": "8622870170e29315",
+      "type": "container",
+      "name": "quay.io/stolostron/must-gather",
+      "version": "2.9.0-d2f51d011e9d1f6bbe0e18fe13ff563e4e01e0c4",
+      "components": []
+    },
+    {
+      "bom-ref": "370f10f0ed6ede7a",
+      "type": "container",
+      "name": "quay.io/stolostron/node-exporter",
+      "version": "2.9.0-bd7e2ce14dfc0e396a4d0c6d69136acf04ea9a1d",
+      "components": []
+    },
+    {
+      "bom-ref": "36de55baa01bc629",
+      "type": "container",
+      "name": "quay.io/stolostron/observability-e2e-test",
+      "version": "2.9.0-fe233aa3392e00ad636a646a2a96373f9e7ccbdb",
+      "components": []
+    },
+    {
+      "bom-ref": "c7007ee86a49ae2b",
+      "type": "container",
+      "name": "quay.io/stolostron/observatorium",
+      "version": "2.9.0-64a459310cc9fc131e8919f34881f77f25b1dd86",
+      "components": []
+    },
+    {
+      "bom-ref": "f72f543b7e61bc8f",
+      "type": "container",
+      "name": "quay.io/stolostron/observatorium-operator",
+      "version": "2.9.0-ea12d3fb3af7b18f2fa431731aa45716ddec94ce",
+      "components": []
+    },
+    {
+      "bom-ref": "6eb5a6d7be35deee",
+      "type": "container",
+      "name": "quay.io/stolostron/origin-oauth-proxy",
+      "version": "4.8",
+      "components": []
+    },
+    {
+      "bom-ref": "6c631162791653",
+      "type": "container",
+      "name": "quay.io/stolostron/origin-oauth-proxy-48",
+      "version": "4.8",
+      "components": []
+    },
+    {
+      "bom-ref": "6012a90b9339b680",
+      "type": "container",
+      "name": "quay.io/stolostron/origin-oauth-proxy-49-and-up",
+      "version": "4.9",
+      "components": []
+    },
+    {
+      "bom-ref": "8edc1c76bde16169",
+      "type": "container",
+      "name": "quay.io/stolostron/postgresql-12",
+      "version": "1-92",
+      "components": []
+    },
+    {
+      "bom-ref": "b047c56a81c55ee3",
+      "type": "container",
+      "name": "quay.io/stolostron/postgresql-13",
+      "version": "1-101",
+      "components": []
+    },
+    {
+      "bom-ref": "b48a6812b78457f7",
+      "type": "container",
+      "name": "quay.io/stolostron/prometheus",
+      "version": "2.9.0-0babb8ecd8e5bba4b660afc2da861f1462fee6bd",
+      "components": []
+    },
+    {
+      "bom-ref": "6a7f3167aaafe018",
+      "type": "container",
+      "name": "quay.io/stolostron/prometheus-alertmanager",
+      "version": "2.9.0-26575202a14a94d8fc27b93c1a042ccdcecadf24",
+      "components": []
+    },
+    {
+      "bom-ref": "e2f5a9b4bd630c9f",
+      "type": "container",
+      "name": "quay.io/stolostron/prometheus-config-reloader",
+      "version": "2.9.0-f0843bcaeb71e8ea58f6427c9518a086b1ae9311",
+      "components": []
+    },
+    {
+      "bom-ref": "74c914ff8c32bb6",
+      "type": "container",
+      "name": "quay.io/stolostron/prometheus-operator",
+      "version": "2.9.0-f0843bcaeb71e8ea58f6427c9518a086b1ae9311",
+      "components": []
+    },
+    {
+      "bom-ref": "5b75e9c3f3f59dc7",
+      "type": "container",
+      "name": "quay.io/stolostron/rbac-query-proxy",
+      "version": "2.9.0-2c47e2bdacdd2a5a3069bef1477ca1c00d9f12c1",
+      "components": []
+    },
+    {
+      "bom-ref": "8a8fe6b319592653",
+      "type": "container",
+      "name": "quay.io/stolostron/search-collector",
+      "version": "2.9.0-4b30af183ccf0c6b880c6c6c21d6da4be5b9ed7c",
+      "components": []
+    },
+    {
+      "bom-ref": "7917f5d03ac99e43",
+      "type": "container",
+      "name": "quay.io/stolostron/search-e2e",
+      "version": "2.9.0-a9559d9e1e04f313a0fb93b0a8889e6b940fe1cc",
+      "components": []
+    },
+    {
+      "bom-ref": "8e23783613a774f6",
+      "type": "container",
+      "name": "quay.io/stolostron/search-indexer",
+      "version": "2.9.0-c77b83fc4572b1059cfbe57f290bf4a85ff9af24",
+      "components": []
+    },
+    {
+      "bom-ref": "ba06d8bee080128d",
+      "type": "container",
+      "name": "quay.io/stolostron/search-operator-bundle",
+      "version": "2.9.0-1942b3fb2215f0cf49cc23b737f41a25512551f4",
+      "components": []
+    },
+    {
+      "bom-ref": "e932ac5b1eb6d83e",
+      "type": "container",
+      "name": "quay.io/stolostron/search-v2-api",
+      "version": "2.9.0-2a7272b4ec14be855da6050b710d9679e6d11381",
+      "components": []
+    },
+    {
+      "bom-ref": "26a1215e0757c6cd",
+      "type": "container",
+      "name": "quay.io/stolostron/search-v2-operator",
+      "version": "2.9.0-614579b79dd8585004d33cb10ec1c529dc890013",
+      "components": []
+    },
+    {
+      "bom-ref": "479f1fb2d412643c",
+      "type": "container",
+      "name": "quay.io/stolostron/submariner-addon",
+      "version": "2.9.0-f5ac4c6c893c4819c33b4062ed7a33b740161a7c",
+      "components": []
+    },
+    {
+      "bom-ref": "5c8bbb938ddd53a3",
+      "type": "container",
+      "name": "quay.io/stolostron/thanos",
+      "version": "2.9.0-b33e30b5e62f744357359eebda1d599d3eabe8f3",
+      "components": []
+    },
+    {
+      "bom-ref": "84fc3c4b6e59fd65",
+      "type": "container",
+      "name": "quay.io/stolostron/thanos-receive-controller",
+      "version": "2.9.0-78712173dd84f96e1fc0d700cf903090e7b53dae",
+      "components": []
+    },
+    {
+      "bom-ref": "d661b2b7bf535784",
+      "type": "container",
+      "name": "quay.io/stolostron/volsync-addon-controller",
+      "version": "2.9.0-293e520b955a51e25697a1e6d9471b75e3d8d59f",
+      "components": []
+    },
+    {
+      "bom-ref": "a20e5e32f893b509",
+      "type": "container",
+      "name": "quay.io/stolostron/volsync-mover-rclone",
+      "version": "release-0.5",
+      "components": []
+    },
+    {
+      "bom-ref": "6e89bdf8d5fbb992",
+      "type": "container",
+      "name": "quay.io/stolostron/volsync-mover-restic",
+      "version": "release-0.5",
+      "components": []
+    },
+    {
+      "bom-ref": "901743362596355d",
+      "type": "container",
+      "name": "quay.io/stolostron/volsync-mover-rsync",
+      "version": "release-0.5",
+      "components": []
+    },
+    {
+      "bom-ref": "ffa5ae47fc75d79a",
+      "type": "container",
+      "name": "quay.io/stolostron/volsync-mover-syncthing",
+      "version": "release-0.5",
+      "components": []
+    },
+    {
+      "bom-ref": "4c5119a0a97e5894",
+      "type": "container",
+      "name": "quay.io/stolostron/volsync",
+      "version": "release-0.5",
+      "components": []
+    }
+  ]
+}

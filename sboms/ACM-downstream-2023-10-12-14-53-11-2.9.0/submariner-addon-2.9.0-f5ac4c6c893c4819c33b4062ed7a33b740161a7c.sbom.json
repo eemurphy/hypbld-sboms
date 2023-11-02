@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:06eadbdd-da5f-4dcf-bfaf-fda28afe4a79",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:21:26-04:00",
+        "component": {
+            "bom-ref": "09a626729c68148f",
+            "type": "container",
+            "name": "quay.io/stolostron/submariner-addon",
+            "version": "2.9.0-f5ac4c6c893c4819c33b4062ed7a33b740161a7c"
+        }
+    }
+}

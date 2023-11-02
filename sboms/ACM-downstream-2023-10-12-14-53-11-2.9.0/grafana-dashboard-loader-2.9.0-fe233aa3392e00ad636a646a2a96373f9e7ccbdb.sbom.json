@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:f2f77f9b-ef3c-4974-87e0-893d2167f2be",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:14:56-04:00",
+        "component": {
+            "bom-ref": "91d3194b45d91682",
+            "type": "container",
+            "name": "quay.io/stolostron/grafana-dashboard-loader",
+            "version": "2.9.0-fe233aa3392e00ad636a646a2a96373f9e7ccbdb"
+        }
+    }
+}

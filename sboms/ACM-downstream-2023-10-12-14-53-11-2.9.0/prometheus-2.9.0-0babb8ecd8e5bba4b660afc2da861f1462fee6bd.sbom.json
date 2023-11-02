@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:fd09f582-0609-4658-8b34-c4b5d33161d7",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:18:54-04:00",
+        "component": {
+            "bom-ref": "8516638a4ef49b20",
+            "type": "container",
+            "name": "quay.io/stolostron/prometheus",
+            "version": "2.9.0-0babb8ecd8e5bba4b660afc2da861f1462fee6bd"
+        }
+    }
+}

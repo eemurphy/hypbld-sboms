@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:8aa890b2-baf5-42fc-8074-e45e5b1566d2",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:19:01-04:00",
+        "component": {
+            "bom-ref": "c161b89dc79cd221",
+            "type": "container",
+            "name": "quay.io/stolostron/prometheus-config-reloader",
+            "version": "2.9.0-f0843bcaeb71e8ea58f6427c9518a086b1ae9311"
+        }
+    }
+}

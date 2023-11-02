@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:d7522589-085a-4a9c-aa9c-b696b0ff9f15",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:14:36-04:00",
+        "component": {
+            "bom-ref": "0476fa379c5980b1",
+            "type": "container",
+            "name": "quay.io/stolostron/governance-policy-propagator",
+            "version": "2.9.0-8e083fdab7d4029b3bcaf18be22883a940057cb2"
+        }
+    }
+}

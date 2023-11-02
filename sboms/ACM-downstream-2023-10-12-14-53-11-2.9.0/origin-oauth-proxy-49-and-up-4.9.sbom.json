@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:cb3c213d-fee3-4ccc-ae54-d9ebea812d8b",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:18:20-04:00",
+        "component": {
+            "bom-ref": "6158bed7e3dea3e2",
+            "type": "container",
+            "name": "quay.io/stolostron/origin-oauth-proxy-49-and-up",
+            "version": "4.9"
+        }
+    }
+}

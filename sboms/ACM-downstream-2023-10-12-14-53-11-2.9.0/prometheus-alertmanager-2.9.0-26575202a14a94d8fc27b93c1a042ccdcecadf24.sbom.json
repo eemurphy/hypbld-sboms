@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:79f4dc81-7b1c-4e6c-8a1f-c8cc9ad830a5",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:18:58-04:00",
+        "component": {
+            "bom-ref": "dc0d85e332cae78b",
+            "type": "container",
+            "name": "quay.io/stolostron/prometheus-alertmanager",
+            "version": "2.9.0-26575202a14a94d8fc27b93c1a042ccdcecadf24"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:cc8f70b4-1bb2-4fc5-85dd-0ae9dc190a04",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:13:52-04:00",
+        "component": {
+            "bom-ref": "0a4e73b1c0c25865",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-lifecycle-e2e",
+            "version": "2.9.0-4a098e64f67071459fd8ba152f504990dbd52800"
+        }
+    }
+}

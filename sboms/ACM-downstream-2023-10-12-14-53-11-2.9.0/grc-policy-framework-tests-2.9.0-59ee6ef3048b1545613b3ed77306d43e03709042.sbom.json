@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:0e27d1f5-d024-4dbf-93cd-8f53e8521c73",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:15:29-04:00",
+        "component": {
+            "bom-ref": "fc7974cb931fd51b",
+            "type": "container",
+            "name": "quay.io/stolostron/grc-policy-framework-tests",
+            "version": "2.9.0-59ee6ef3048b1545613b3ed77306d43e03709042"
+        }
+    }
+}

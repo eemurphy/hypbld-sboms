@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:08223429-db0e-45a8-8a9c-29ced6629622",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:16:35-04:00",
+        "component": {
+            "bom-ref": "53875689333b3933",
+            "type": "container",
+            "name": "quay.io/stolostron/multicluster-operators-subscription",
+            "version": "2.9.0-a64b629a340faee6e707fc24128e3cd8a9026bef"
+        }
+    }
+}

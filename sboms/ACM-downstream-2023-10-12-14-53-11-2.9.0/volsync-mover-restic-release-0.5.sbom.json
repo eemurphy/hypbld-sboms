@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:8fe4cbd8-d913-4fb3-9a38-1ac658724a4e",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:21:51-04:00",
+        "component": {
+            "bom-ref": "739f59d24549e91a",
+            "type": "container",
+            "name": "quay.io/stolostron/volsync-mover-restic",
+            "version": "release-0.5"
+        }
+    }
+}

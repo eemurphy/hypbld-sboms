@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:54607419-73b0-4806-bffa-90eb6836f4a5",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:17:53-04:00",
+        "component": {
+            "bom-ref": "c980fee4d5ff09e6",
+            "type": "container",
+            "name": "quay.io/stolostron/observatorium-operator",
+            "version": "2.9.0-ea12d3fb3af7b18f2fa431731aa45716ddec94ce"
+        }
+    }
+}

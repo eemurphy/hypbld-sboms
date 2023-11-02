@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:551c7cdd-1c65-4b31-ae47-6fe50f05af6a",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:22:06-04:00",
+        "component": {
+            "bom-ref": "90a96dad15e9dc81",
+            "type": "container",
+            "name": "quay.io/stolostron/volsync-mover-syncthing",
+            "version": "release-0.5"
+        }
+    }
+}

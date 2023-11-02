@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:c7d54362-987e-4540-8467-9ea86a8383a9",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:13:33-04:00",
+        "component": {
+            "bom-ref": "aa56e0688fdb3587",
+            "type": "container",
+            "name": "quay.io/stolostron/bailer",
+            "version": "2.7.0-61b678d7796c75cacca1fb08b1b0b6b71fe25253"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:aee210ab-4c75-461c-999d-f29f48fb4576",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:16:06-04:00",
+        "component": {
+            "bom-ref": "ee29ea59e9c3ea4e",
+            "type": "container",
+            "name": "quay.io/stolostron/multicloud-integrations",
+            "version": "2.9.0-9e76fa51b28da8c7ca1d3dd7123cac15c426664d"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:0a7dd648-1465-472f-8b11-d53799f57cd7",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:14:08-04:00",
+        "component": {
+            "bom-ref": "b7dbc20777aa8629",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-templates-operator",
+            "version": "2.8.0-e6619af6896be853379c0a136f1f66354d6d4c4d"
+        }
+    }
+}

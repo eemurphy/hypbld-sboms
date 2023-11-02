@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:2a5787ca-276e-40d2-aa4d-c04831f42860",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:14:13-04:00",
+        "component": {
+            "bom-ref": "11fbf47796b9966a",
+            "type": "container",
+            "name": "quay.io/stolostron/config-policy-controller",
+            "version": "2.9.0-70185663e4bffae1235250f8fd50f7623e6e98c9"
+        }
+    }
+}

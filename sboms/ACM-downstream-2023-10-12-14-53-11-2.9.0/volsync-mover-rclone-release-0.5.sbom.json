@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:f87b57e0-f3c3-4911-91a3-9ae99081387d",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:21:48-04:00",
+        "component": {
+            "bom-ref": "b2d4525d76cc61e6",
+            "type": "container",
+            "name": "quay.io/stolostron/volsync-mover-rclone",
+            "version": "release-0.5"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:f91df1a0-328c-4341-9f5b-25f96da37161",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:21:30-04:00",
+        "component": {
+            "bom-ref": "743a4202a2d057d5",
+            "type": "container",
+            "name": "quay.io/stolostron/thanos",
+            "version": "2.9.0-b33e30b5e62f744357359eebda1d599d3eabe8f3"
+        }
+    }
+}

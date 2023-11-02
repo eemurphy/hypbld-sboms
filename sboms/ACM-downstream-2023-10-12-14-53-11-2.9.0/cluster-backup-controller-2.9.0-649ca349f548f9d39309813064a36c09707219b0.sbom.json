@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:48bdc51c-5103-4cbd-9ee8-f41c906862ac",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:13:40-04:00",
+        "component": {
+            "bom-ref": "58564d58335cea0c",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-backup-controller",
+            "version": "2.9.0-649ca349f548f9d39309813064a36c09707219b0"
+        }
+    }
+}

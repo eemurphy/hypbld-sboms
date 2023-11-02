@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:b40456f3-9b2f-4990-8b2b-9eabee73d7bf",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:15:55-04:00",
+        "component": {
+            "bom-ref": "7d33d3042f939fed",
+            "type": "container",
+            "name": "quay.io/stolostron/kube-state-metrics",
+            "version": "2.9.0-05a25ee9997be60608172443698d0f40ff62fffd"
+        }
+    }
+}

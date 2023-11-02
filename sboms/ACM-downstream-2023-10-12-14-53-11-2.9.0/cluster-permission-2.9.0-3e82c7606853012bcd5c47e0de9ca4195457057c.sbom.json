@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:f9a83c05-0462-4626-8b6d-8b6a1acb6b96",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:13:55-04:00",
+        "component": {
+            "bom-ref": "73babc637c58294b",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-permission",
+            "version": "2.9.0-3e82c7606853012bcd5c47e0de9ca4195457057c"
+        }
+    }
+}

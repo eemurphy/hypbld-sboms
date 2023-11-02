@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:aa18dfa9-57e0-478a-bfbe-1700ab2a83d5",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:15:49-04:00",
+        "component": {
+            "bom-ref": "c7d4af5442abe71c",
+            "type": "container",
+            "name": "quay.io/stolostron/klusterlet-addon-controller",
+            "version": "2.9.0-21fcf32a88b845c67d0dcc47e0d86002c182d5d8"
+        }
+    }
+}

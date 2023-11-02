@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:597542e0-ef50-43da-9f1b-225cbaae0e2d",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:17:47-04:00",
+        "component": {
+            "bom-ref": "5ee0e679eb9a2082",
+            "type": "container",
+            "name": "quay.io/stolostron/observability-e2e-test",
+            "version": "2.9.0-fe233aa3392e00ad636a646a2a96373f9e7ccbdb"
+        }
+    }
+}

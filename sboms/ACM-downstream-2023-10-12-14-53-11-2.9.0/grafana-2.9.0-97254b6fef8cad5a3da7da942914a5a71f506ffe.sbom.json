@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:32e2178a-1783-49e7-8999-86e58ec0b33c",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:14:53-04:00",
+        "component": {
+            "bom-ref": "c81f5e3bb1e5dbd7",
+            "type": "container",
+            "name": "quay.io/stolostron/grafana",
+            "version": "2.9.0-97254b6fef8cad5a3da7da942914a5a71f506ffe"
+        }
+    }
+}
