@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:e7c609f6-4186-4c07-9248-5d14c4046d95",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:49:27-04:00",
+        "component": {
+            "bom-ref": "0161144536121d2b",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-api-provider-kubevirt",
+            "version": "2.4.0-8541847fba3de4ea0155f22dcc8923c820f052b8"
+        }
+    }
+}

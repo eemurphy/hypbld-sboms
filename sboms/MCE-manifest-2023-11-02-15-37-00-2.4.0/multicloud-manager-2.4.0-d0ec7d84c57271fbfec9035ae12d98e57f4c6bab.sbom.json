@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:f20e545b-9568-4467-9be7-899017aea329",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:53:52-04:00",
+        "component": {
+            "bom-ref": "e61145875068e4c6",
+            "type": "container",
+            "name": "quay.io/stolostron/multicloud-manager",
+            "version": "2.4.0-d0ec7d84c57271fbfec9035ae12d98e57f4c6bab"
+        }
+    }
+}

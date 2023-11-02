@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:445fe5c9-91f9-4c68-ae35-cd19a18f0b6e",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:49:58-04:00",
+        "component": {
+            "bom-ref": "2b4d27358869fd95",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-proxy-addon",
+            "version": "2.4.0-0ba684d6ef371e201f5fe7c6a1e306f8c8d9b202"
+        }
+    }
+}

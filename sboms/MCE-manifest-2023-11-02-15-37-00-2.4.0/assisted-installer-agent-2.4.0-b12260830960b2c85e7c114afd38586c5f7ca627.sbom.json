@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:4405db1c-f011-47a9-aaf6-7ec5ca772ebd",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:46:00-04:00",
+        "component": {
+            "bom-ref": "af06bb75376f14af",
+            "type": "container",
+            "name": "quay.io/stolostron/assisted-installer-agent",
+            "version": "2.4.0-b12260830960b2c85e7c114afd38586c5f7ca627"
+        }
+    }
+}

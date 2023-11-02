@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:6891fdea-bc97-4f6b-9a41-5e8d904a4631",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:45:40-04:00",
+        "component": {
+            "bom-ref": "d44c9a72d3cd56ff",
+            "type": "container",
+            "name": "quay.io/stolostron/assisted-image-service",
+            "version": "2.4.0-884b2315209527b616fd6009901d38d37062c65c"
+        }
+    }
+}

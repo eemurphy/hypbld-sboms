@@ -5,14 +5,15 @@ import re
 from subprocess import run
 
 #deletes unwanted fields in CDX formatted JSON file
-def delete_fields(data):
+def delete_fields(data, component):
 
     #if component SBOM
-    if sys.argv[2] == True:
+    if component:
         #delete components 
         data.pop("components")
         #delete references to syft tool (unnecessary)
         data['metadata'].pop("tools")
+        print("THIS IS A POTNSDFLIHJIO")
         return data
     else:
         #if main SBOM
@@ -24,6 +25,8 @@ def delete_fields(data):
         return data
 
 data = json.load(open(sys.argv[1])) #opens manifest json
+delete_fields(data, sys.argv[2])
+
 with open(sys.argv[1], 'w', encoding='utf-8') as f:
     f.truncate(0)
     json.dump(data, f, ensure_ascii=False, indent=4)

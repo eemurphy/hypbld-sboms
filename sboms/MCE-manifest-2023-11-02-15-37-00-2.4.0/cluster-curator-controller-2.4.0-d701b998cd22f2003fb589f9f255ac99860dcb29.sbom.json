@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:a536604d-c575-493a-a976-72994f3bc3d4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:49:35-04:00",
+        "component": {
+            "bom-ref": "93feadac45f79f00",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-curator-controller",
+            "version": "2.4.0-d701b998cd22f2003fb589f9f255ac99860dcb29"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:7ef57058-38c6-488c-b439-1af590a53f8e",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:47:06-04:00",
+        "component": {
+            "bom-ref": "a19857c5d9fb8574",
+            "type": "container",
+            "name": "quay.io/stolostron/aws-encryption-provider",
+            "version": "sha256:eb957d0c72e10801a38657be5ec3600648b490cbc8f429f743e238862c3b6917"
+        }
+    }
+}

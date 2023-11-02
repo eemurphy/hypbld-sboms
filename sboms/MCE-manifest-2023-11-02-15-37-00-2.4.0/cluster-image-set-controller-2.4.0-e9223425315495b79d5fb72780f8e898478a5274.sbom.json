@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:3e1d1a4b-6a17-4806-a997-6ab0d7c19ba7",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:49:41-04:00",
+        "component": {
+            "bom-ref": "d4c3bffc4612f17c",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-image-set-controller",
+            "version": "2.4.0-e9223425315495b79d5fb72780f8e898478a5274"
+        }
+    }
+}

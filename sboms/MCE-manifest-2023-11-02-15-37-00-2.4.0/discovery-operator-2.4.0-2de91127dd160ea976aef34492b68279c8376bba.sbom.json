@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:40fc1656-8f9c-4a03-aa0b-65a3a035f5f6",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:50:42-04:00",
+        "component": {
+            "bom-ref": "a7fc7254b840cd8b",
+            "type": "container",
+            "name": "quay.io/stolostron/discovery-operator",
+            "version": "2.4.0-2de91127dd160ea976aef34492b68279c8376bba"
+        }
+    }
+}

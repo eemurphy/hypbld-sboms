@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:1356cfdd-e73e-4e14-833c-99ca79b4b20b",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:55:04-04:00",
+        "component": {
+            "bom-ref": "95fb650c80042239",
+            "type": "container",
+            "name": "quay.io/stolostron/work",
+            "version": "2.4.0-708be874486f035f04479cb304ec13c35a953c67"
+        }
+    }
+}

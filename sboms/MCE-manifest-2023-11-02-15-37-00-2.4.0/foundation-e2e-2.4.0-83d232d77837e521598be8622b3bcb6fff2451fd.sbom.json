@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:003c8aff-ff52-4005-a2ed-4e8030e93347",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:51:05-04:00",
+        "component": {
+            "bom-ref": "01be10fb4a228712",
+            "type": "container",
+            "name": "quay.io/stolostron/foundation-e2e",
+            "version": "2.4.0-83d232d77837e521598be8622b3bcb6fff2451fd"
+        }
+    }
+}

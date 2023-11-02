@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:b7f4a4cc-ea0d-4bcf-9b08-2b4616d39f8d",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:52:59-04:00",
+        "component": {
+            "bom-ref": "70d2d73bd1d825a3",
+            "type": "container",
+            "name": "quay.io/stolostron/hypershift-operator",
+            "version": "2.4.0-f1e95840179a39f7dc7898d91196f78ee6c71c55"
+        }
+    }
+}

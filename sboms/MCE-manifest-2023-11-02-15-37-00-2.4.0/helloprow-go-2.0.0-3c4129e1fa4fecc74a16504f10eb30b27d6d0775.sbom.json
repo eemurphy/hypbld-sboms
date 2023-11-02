@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:9917de12-99a3-4479-94ca-d4a260d5271e",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:51:07-04:00",
+        "component": {
+            "bom-ref": "59ca93d292f94810",
+            "type": "container",
+            "name": "quay.io/stolostron/helloprow-go",
+            "version": "2.0.0-3c4129e1fa4fecc74a16504f10eb30b27d6d0775"
+        }
+    }
+}

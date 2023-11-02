@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:51911637-f8f9-4ed1-87cd-c5b5dce7f343",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:50:05-04:00",
+        "component": {
+            "bom-ref": "07304c553011134c",
+            "type": "container",
+            "name": "quay.io/stolostron/clusterclaims-controller",
+            "version": "2.4.0-189971a261b961ab36957183bf2cd25a7b169fae"
+        }
+    }
+}

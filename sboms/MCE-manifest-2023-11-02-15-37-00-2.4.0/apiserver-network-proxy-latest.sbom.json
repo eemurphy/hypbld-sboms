@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:5445a2c7-8450-4add-8e49-849482f7bc91",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:45:34-04:00",
+        "component": {
+            "bom-ref": "247acbe88babf1b1",
+            "type": "container",
+            "name": "quay.io/stolostron/apiserver-network-proxy",
+            "version": "sha256:643577140dd38a878444cd7f2fe7044f0dc376bab5ce5e31f0e8af74309572c8"
+        }
+    }
+}

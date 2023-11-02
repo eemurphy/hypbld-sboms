@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:ed82e5d5-c83f-4f0c-a5fa-ee10da48dadf",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:50:37-04:00",
+        "component": {
+            "bom-ref": "d91cabb4d6e91e88",
+            "type": "container",
+            "name": "quay.io/stolostron/console-mce",
+            "version": "2.4.0-45cb5bb82fe9dcf37de028885cdc21dc480b28d6"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:fc646a09-8702-4735-b263-82a7299125c0",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:47:34-04:00",
+        "component": {
+            "bom-ref": "7150e6b7bf46316f",
+            "type": "container",
+            "name": "quay.io/stolostron/backplane-operator",
+            "version": "2.4.0-526ed59e8c5376f29e8e34eaeff5f5d3e5c034a4"
+        }
+    }
+}

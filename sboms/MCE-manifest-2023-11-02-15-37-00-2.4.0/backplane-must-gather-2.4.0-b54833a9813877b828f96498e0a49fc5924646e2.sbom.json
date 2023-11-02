@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:aa9f593d-e891-45d7-a17f-a5f00535a8d8",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:47:27-04:00",
+        "component": {
+            "bom-ref": "b16ed3fb8c8b62de",
+            "type": "container",
+            "name": "quay.io/stolostron/backplane-must-gather",
+            "version": "2.4.0-b54833a9813877b828f96498e0a49fc5924646e2"
+        }
+    }
+}

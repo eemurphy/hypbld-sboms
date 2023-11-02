@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:7a0371ee-d7bf-4d49-afe8-ad2837f60504",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:52:29-04:00",
+        "component": {
+            "bom-ref": "0c0042042c98025e",
+            "type": "container",
+            "name": "quay.io/stolostron/hypershift-addon-operator-canary-test",
+            "version": "2.4.0-23ecf925319f960fa2a3968584c8a6509a74106d"
+        }
+    }
+}

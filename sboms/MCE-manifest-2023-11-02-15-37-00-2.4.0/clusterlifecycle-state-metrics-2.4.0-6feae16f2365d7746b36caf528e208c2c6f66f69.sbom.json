@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:91d36a56-eebd-47f3-bd44-ad9a202cd377",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:50:22-04:00",
+        "component": {
+            "bom-ref": "86860c55f2a49218",
+            "type": "container",
+            "name": "quay.io/stolostron/clusterlifecycle-state-metrics",
+            "version": "2.4.0-6feae16f2365d7746b36caf528e208c2c6f66f69"
+        }
+    }
+}

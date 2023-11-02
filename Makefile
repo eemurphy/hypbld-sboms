@@ -1,6 +1,6 @@
-INPUT_FILE_NAME ?= ACM-downstream-2023-10-12-14-53-11-2.9.0
+INPUT_FILE_NAME ?= MCE-manifest-2023-11-02-15-37-00-2.4.0
 FINAL_FILE_NAME ?= $(INPUT_FILE_NAME).sbom.json
-CONFIG_FILE_NAME ?= acm-config
+CONFIG_FILE_NAME ?= mce-config
 
 pipeline-sboms:
 	echo scripts/manifest-parser.py $(INPUT_FILE_NAME)

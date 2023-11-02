@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:5db43843-7185-409a-aa75-ec74ecbc759c",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:53:06-04:00",
+        "component": {
+            "bom-ref": "8af0cbf2c2b2b4b7",
+            "type": "container",
+            "name": "quay.io/stolostron/kube-rbac-proxy-mce",
+            "version": "2.4.0-9410df10ecd4e0503c007568452274b6c3da92aa"
+        }
+    }
+}

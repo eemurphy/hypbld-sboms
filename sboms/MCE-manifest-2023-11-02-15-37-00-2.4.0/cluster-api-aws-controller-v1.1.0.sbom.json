@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:7b5639c5-5385-4d6f-88e5-7ffe367af3eb",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:48:43-04:00",
+        "component": {
+            "bom-ref": "55d02890b8b1a20e",
+            "type": "container",
+            "name": "quay.io/stolostron/cluster-api-aws-controller",
+            "version": "v1.1.0"
+        }
+    }
+}

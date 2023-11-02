@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:81e43727-901d-4fe2-819c-8e155861f5da",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:52:06-04:00",
+        "component": {
+            "bom-ref": "02687ad19a6e3220",
+            "type": "container",
+            "name": "quay.io/stolostron/hive",
+            "version": "local-2.4-e3f9aed5bf2a2b43aa05621864fd37c71c38afda"
+        }
+    }
+}

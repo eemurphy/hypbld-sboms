@@ -1,0 +1,16 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:c509fad6-961b-4d69-9d45-a6f381e0870b",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-11-02T12:54:18-04:00",
+        "component": {
+            "bom-ref": "78d6380ac05c9d8e",
+            "type": "container",
+            "name": "quay.io/stolostron/postgresql-12-centos7",
+            "version": "sha256:3d31fdd346b4184a43b804248c60226ce3d65bf18e614e8d3ec4da67f7a7f1ee"
+        }
+    }
+}
